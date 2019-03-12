@@ -45,7 +45,7 @@ For transmitting protocol see : https://github.com/YannikW/Open-Lap/blob/master/
 
 #define MINLAPTIME    5000  //ms to register a new completed lap
 
-#define TONEPIN         D8  //Connect Buzzer to D8
+#define TONEPIN         6  //Connect Buzzer to D6
 #define BEEPLENGTH     100  //ms
 
 #define ANALYSEDELAY   150  //µS Delay between data capturing and analysing
@@ -72,7 +72,7 @@ uint8_t mode = 0;                     //0 : OpenLap - flying start (default)
                                       //2 : FPV Race Tracker (start on countdown)
                                       //3 : EasyRaceLapTimer (flying start)
 
-static const uint8_t sensorPin[4] = {5, 4, 0, 2}; //eqivalent GPIOs to D1, D2, D3, D4
+static const uint8_t sensorPin[4] = {2, 3, 4, 5}; //eqivalent GPIOs to D1, D2, D3, D4
 
 boolean state[NUMSENSORS];            //input sensor state
 boolean lastState[NUMSENSORS];        //last input sensor state
