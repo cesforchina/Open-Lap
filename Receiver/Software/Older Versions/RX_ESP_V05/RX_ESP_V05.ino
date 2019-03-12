@@ -72,7 +72,7 @@ uint8_t mode = 0;                     //0 : OpenLap - flying start (default)
                                       //2 : FPV Race Tracker (start on countdown)
                                       //3 : EasyRaceLapTimer (flying start)
 
-static const uint8_t sensorPin[4] = {2, 3, 4, 5}; //eqivalent GPIOs to D1, D2, D3, D4
+static const uint8_t sensorPin[4] = {2, 3, 4, 5}; //eqivalent GPIOs to D2, D3, D4, D5
 
 boolean state[NUMSENSORS];            //input sensor state
 boolean lastState[NUMSENSORS];        //last input sensor state
