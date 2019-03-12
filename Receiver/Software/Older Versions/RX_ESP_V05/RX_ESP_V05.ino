@@ -45,7 +45,7 @@ For transmitting protocol see : https://github.com/YannikW/Open-Lap/blob/master/
 
 #define MINLAPTIME    5000  //ms to register a new completed lap
 
-#define TONEPIN         D8  //Connect Buzzer to D8
+//#define TONEPIN         D8  //Connect Buzzer to D8
 #define BEEPLENGTH     100  //ms
 
 #define ANALYSEDELAY   150  //µS Delay between data capturing and analysing
