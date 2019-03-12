@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "name": "Visual Micro",
+      "intelliSenseMode": "msvc-x64",
+      "includePath": [
+        "${projectRoot}..\\RX_ESP_V05",
+        "${projectRoot}..\\..\\..\\..\\..\\..\\..\\..\\..\\Arduino\\libraries",
+        "${projectRoot}..\\..\\..\\..\\..\\..\\..\\..\\..\\Arduino\\hardware\\arduino\\avr\\libraries",
+        "${projectRoot}..\\..\\..\\..\\..\\..\\..\\..\\..\\Arduino\\hardware\\arduino\\avr\\cores\\arduino",
+        "${projectRoot}..\\..\\..\\..\\..\\..\\..\\..\\..\\Arduino\\hardware\\arduino\\avr\\variants\\eightanaloginputs",
+        "${projectRoot}..\\..\\..\\..\\..\\..\\..\\..\\..\\Arduino\\hardware\\tools\\avr\\avr\\include",
+        "${projectRoot}..\\..\\..\\..\\..\\..\\..\\..\\..\\Arduino\\hardware\\tools\\avr\\avr\\include\\avr",
+        "${projectRoot}..\\..\\..\\..\\..\\..\\..\\..\\..\\Arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\4.8.1\\include",
+        "${projectRoot}..\\..\\..\\..\\..\\..\\..\\..\\..\\Arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\4.9.2\\include",
+        "${projectRoot}..\\..\\..\\..\\..\\..\\..\\..\\..\\Arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\4.9.3\\include"
+      ],
+      "defines": [
+        "__AVR_ATmega328p__",
+        "__AVR_ATmega328P__",
+        "F_CPU=16000000L",
+        "ARDUINO=10808",
+        "ARDUINO_AVR_PRO",
+        "ARDUINO_ARCH_AVR",
+        "__cplusplus=201103L",
+        "_VMICRO_INTELLISENSE"
+      ]
+    }
+  ]
+}
